@@ -77,7 +77,42 @@ int *F_ottieni_bit(int n)
         int bit_preso = mask_n >> k;
 
         bits[k] = bit_preso;
-        printf("\nMetto|%d| in K|%d|\n",bits[k],k);
+        printf("Metto|%d| in K|%d|\n",bits[k],k);
+        /*
+            Metto|1| in K|0|
+            Metto|1| in K|1|
+            Metto|0| in K|2|
+            Metto|1| in K|3|
+            Metto|0| in K|4|
+            Metto|0| in K|5|
+            Metto|0| in K|6|
+            Metto|0| in K|7|
+            Metto|0| in K|8|
+            Metto|0| in K|9|
+            Metto|0| in K|10|
+            Metto|0| in K|11|
+            Metto|0| in K|12|
+            Metto|0| in K|13|
+            Metto|0| in K|14|
+            Metto|0| in K|15|
+            Metto|0| in K|16|
+            Metto|0| in K|17|
+            Metto|0| in K|18|
+            Metto|0| in K|19|
+            Metto|0| in K|20|
+            Metto|0| in K|21|
+            Metto|0| in K|22|
+            Metto|0| in K|23|
+            Metto|0| in K|24|
+            Metto|0| in K|25|
+            Metto|0| in K|26|
+            Metto|0| in K|27|
+            Metto|0| in K|28|
+            Metto|0| in K|29|
+            Metto|0| in K|30|
+            Metto|0| in K|31|
+            Stampa finale: 11010000000000000000000000000000 <- lettura
+         */
     }
     return bits;
 }
